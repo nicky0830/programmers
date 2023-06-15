@@ -2,9 +2,8 @@ def solution(arr):
     check =''
     answer = []
     for a in arr: 
-        if check != a:
-            answer.append(a)
-            check = a  
+        if answer[-1:] == [a]: continue
+        answer.append(a)
     return answer
             
  
