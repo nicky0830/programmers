@@ -1,6 +1,7 @@
 def solution(answers):
     answer = []
     one, two, three = 0, 0, 0
+    # 이렇게 할당할 수 있음
     oneArr = [1,2,3,4,5]
     twoArr = [2,1,2,3,2,4,2,5]
     threeArr = [3,3,1,1,2,2,4,4,5,5]
@@ -17,5 +18,5 @@ def solution(answers):
     
     for i, count in enumerate([one, two, three]):
         if count == max_count:
-            indices.append(i+1) 
+            indices.append(i+1)
     return indices
