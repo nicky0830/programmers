@@ -7,5 +7,5 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 - [옹알이](https://school.programmers.co.kr/app/courses/17584/curriculum/lessons/197243#part-46571)
 
 ## 2. 구현
-- [연속된 수의 합](https://school.programmers.co.kr/app/courses/17584/curriculum/lessons/197245
+- [연속된 수의 합](https://school.programmers.co.kr/app/courses/17584/curriculum/lessons/197245)
 - [치킨 쿠폰](https://school.programmers.co.kr/app/courses/17584/curriculum/lessons/197246#part-46572)
