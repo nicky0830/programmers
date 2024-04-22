@@ -10,3 +10,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 - [연속된 수의 합](https://school.programmers.co.kr/app/courses/17584/curriculum/lessons/197245)
 - [치킨 쿠폰](https://school.programmers.co.kr/app/courses/17584/curriculum/lessons/197246#part-46572)
 - [바탕화면 정리](https://github.com/nicky0830/programmers/commit/fdf82ee0a1bca2b009a899e459434c2358ab5780)
+
+## 3. 딕셔너리
+- [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301?language=python3)
+  
