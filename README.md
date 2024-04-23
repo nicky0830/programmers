@@ -13,4 +13,4 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 
 ## 3. 딕셔너리
 - [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301?language=python3)
-  
+- [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577?language=python3)
