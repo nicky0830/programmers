@@ -4,9 +4,8 @@ def solution(s):
     for e in s:
         if e == '(':
             stack.append(e)
+        elif stack:
+            stack.pop()
         else:
-            if len(stack) == 0:
-                return False
-            else:
-                stack.pop()
+            return False
     return not bool(len(stack))
