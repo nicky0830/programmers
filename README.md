@@ -17,4 +17,3 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 
 ## 4.셋
 - [신고 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334?language=python3)
-커밋용
