@@ -1,6 +1,31 @@
 # programmers
 This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
 
+# 자료구조
+## dfs
+```python
+  graph = [
+    [],
+    [2,3,8],
+    [1, 7],
+    [1, 4, 5],
+    [3, 5],
+    [3, 4],
+    [7],
+    [2, 6, 8],
+    [1, 7]
+  ]
+
+  # 인접 행렬
+  visited = [False] * node 개수
+  def dfs(visited, node):
+    visited[node] = True
+    for g in graph[node]:
+      if not visited[g]:
+        dfs(visited, g)
+  dfs(graph, 1, visited)
+```
+
 # 다시 풀어야 하는 문제들
 ## 1. 문자열 다루기
 - [문자열 밀기](https://github.com/nicky0830/programmers/commit/47758fbf61f1e57f6bd5269689f5328b4c1c57fc)
