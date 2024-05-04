@@ -89,3 +89,6 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## 5. 힙
 - [명예의 전당](https://school.programmers.co.kr/tryouts/85933/challenges?language=python3)
 - [더 맵게](https://school.programmers.co.kr/tryouts/85934/challenges)
+
+## 6. dfs
+- [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943)
