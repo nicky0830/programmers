@@ -39,6 +39,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 
 ```python
   from collections from deque
+  # collections는 기본 라이브러리라 코테에서 사용 가능
 
   graph = [
     [],
