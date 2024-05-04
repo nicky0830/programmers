@@ -1,7 +1,7 @@
 # programmers
 This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
 
-# 자료구조
+# 주요 알고리즘 유형
 ## dfs
 ```python
   graph = [
