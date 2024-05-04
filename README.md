@@ -2,7 +2,10 @@
 This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
 
 # 주요 알고리즘 유형
-## dfs
+## 1. dfs
+- 스택 자료구조 사용
+- 깊이 우선 탐색
+  
 ```python
   graph = [
     [],
@@ -28,6 +31,41 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
       if not visited[g]:
         dfs(visited, g)
   dfs(graph, 1, visited)
+```
+
+## 2. bfs
+- 큐 자료구조 사용
+- 넓이 우선 탐색
+
+```python
+  from collections from deque
+
+  graph = [
+    [],
+    [2,3,8],
+    [1, 7],
+    [1, 4, 5],
+    [3, 5],
+    [3, 4],
+    [7],
+    [2, 6, 8],
+    [1, 7]
+  ]
+
+  # 인접 행렬
+  visited = [False] * node 개수
+  def bfs(visited, start):
+    queue = deque([start])
+    visited[start] = True
+    while queue:
+      v = queue.popleft()
+      for i in graph[v]:
+        # 인접 리스트를 다 돌면서 queue에 추가
+        # 다 돌았으면 popleft를 사용해서 첫번째 원소의 인접리스트를 다시 돈다
+        if not visited[i]:
+          queue.append(i)
+          visited[i] = True
+  bfs(visited, 1)
 ```
 
 # 다시 풀어야 하는 문제들
