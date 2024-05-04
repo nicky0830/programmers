@@ -24,7 +24,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
       # 해당 노드와 연결된 노드를 돈다
       # 가장 깊은 노드까지 반복
       # 더 이상 방문할 노드가 없으면 이전 노드의 연결 리스트로 돌아가게 됨
-        : 이게 stack의 pop과 pop한 노드의 연결 리스트를 도는 것과 같음
+      #  : 이게 stack의 pop과 pop한 노드의 연결 리스트를 도는 것과 같음
       if not visited[g]:
         dfs(visited, g)
   dfs(graph, 1, visited)
