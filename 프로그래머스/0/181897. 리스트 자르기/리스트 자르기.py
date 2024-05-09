@@ -8,10 +8,4 @@ def solution(n, slicer, num_list):
     if n==3:
         return num_list[a:b+1]
     if n==4:
-        idx = 0
-        new_list = num_list[a:b+1]
-        while idx < len(new_list):
-            print(idx)
-            answer.append(new_list[idx])
-            idx += c
-        return answer
+        return num_list[a:b+1:c]
