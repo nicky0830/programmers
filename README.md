@@ -91,3 +91,10 @@
 
 ## 6. dfs
 - [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943)
+
+
+# 라이브러리
+## itertools 
+1. combination
+## string
+1. ascii_lowercase
