@@ -1,17 +1,16 @@
+from string import ascii_lowercase
+
 def solution(s, skip, index):
-    answer = ''
-    for a in s:
-        count = 0
-        for i in range(ord(a)+1, ord(a)+index+1):
-            check = ''
-            if i>ord('z'):
-                check = chr(i-ord('z')+ord('a')-1)
-            else:
-                check = chr(i)
-            if check in skip:
-                count += 1
-        end = ord(a)+index+count
-        if end > ord('z'):
-            end = end - ord('z') + ord('a') - 1
-        answer += chr(end)
-    return answer
+    result = ''
+
+    a_to_z = set(ascii_lowercase)
+    a_to_z -= set(skip)
+    a_to_z = sorted(a_to_z)
+    l = len(a_to_z)
+
+    dic_alpha = {alpha:idx for idx, alpha in enumerate(a_to_z)}
+
+    for i in s:
+        result += a_to_z[(dic_alpha[i] + index) % l]
+
+    return result
