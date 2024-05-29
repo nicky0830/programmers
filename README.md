@@ -92,6 +92,8 @@
 ## 6. dfs
 - [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943)
 
+## 몰라
+- [둘만의 암호](https://school.programmers.co.kr/learn/courses/30/lessons/155652#)
 
 # 라이브러리
 ## itertools 
