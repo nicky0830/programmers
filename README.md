@@ -95,6 +95,8 @@
 ## 몰라
 - [둘만의 암호](https://school.programmers.co.kr/learn/courses/30/lessons/155652#)
 
+## 7. stack
+- [햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
 # 라이브러리
 ## itertools 
 1. combination
