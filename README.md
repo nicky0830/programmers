@@ -101,7 +101,8 @@
 ## 8. 시간초과
 - [달리기 경주](https://school.programmers.co.kr/learn/courses/30/lessons/178871)
 
-- 
+## 9. 투포인터
+- [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)
 # 라이브러리
 ## itertools 
 1. combination
