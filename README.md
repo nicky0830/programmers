@@ -108,7 +108,11 @@
 - [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)
 
 # 라이브러리
+## fraction
+1. gcd
+   
 ## itertools 
 1. combination
+   
 ## string
 1. ascii_lowercase
