@@ -103,6 +103,10 @@
 
 ## 9. 투포인터
 - [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)
+
+## 10. 레벨2
+- [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)
+
 # 라이브러리
 ## itertools 
 1. combination
