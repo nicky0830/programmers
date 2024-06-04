@@ -121,3 +121,7 @@
    
 ## string
 1. ascii_lowercase
+
+## collections
+1. Counter : key별로 개수를 세는 딕셔너리를 만들어야 할 때 바로 만들 수 있다
+     ex. 귤 고르기 문제 
