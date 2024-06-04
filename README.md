@@ -99,6 +99,7 @@
 
 ## 7. stack
 - [햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
+- [짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
 
 ## 8. 시간초과
 - [달리기 경주](https://school.programmers.co.kr/learn/courses/30/lessons/178871)
