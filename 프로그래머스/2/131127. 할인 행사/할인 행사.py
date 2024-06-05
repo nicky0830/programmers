@@ -1,16 +1,8 @@
-import collections
+from collections import Counter
 def solution(want, number, discount):
-    answer = 0
+    answer=0
     z = dict(zip(want, number))
-    c = collections.Counter(discount)
-    start = 0
-    while start <= len(discount) - 10:
-        new_z = z.copy()
-        for d in discount[start:start+10]:
-            if d in new_z and new_z[d] > 0:
-                new_z[d] -= 1
-        last = list(filter(lambda x: x != 0, new_z.values()))
-        if len(last) == 0:
+    for i in range(len(discount)-9):
+        if z == Counter(discount[i:i+10]):
             answer += 1
-        start += 1
     return answer
