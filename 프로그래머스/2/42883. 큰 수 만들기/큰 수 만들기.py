@@ -1,10 +1,14 @@
 def solution(number, k):
-    stack = [number[0]]
-    for num in number[1:]:
-        while len(stack) > 0 and stack[-1] < num and k > 0:
-            k -= 1
-            stack.pop()
-        stack.append(num)
-    if k != 0:
-        stack = stack[:-k]
-    return ''.join(stack)
+    answer = ''
+    while k > 0:
+        if '9' in number[:k+1]:
+            max_num = '9'
+        else:
+            max_num = max(number[:k+1])
+        idx = number.index(max_num)
+        k -= idx
+        answer += max_num
+        number = number[idx+1:]
+        if len(number) == k:
+            return answer
+    return answer + ''.join(number)
