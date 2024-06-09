@@ -142,3 +142,9 @@
 - max(...): O(n) //max의 인수가 몇 개가 되든
 - 배열.index(n): O(n) 
 
+## bracket notation
+- [start : end : step]
+- step이 음수면 뒤집어서
+  (step이 음수여도 start, end는 원래 배열의 index 기준으로 함.)
+  (만약 뒤집은 기준으로 배열의 index를 사용하고 싶으면 한번 뒤집고 아예 다른 bracket으로 잡기)
+- 
