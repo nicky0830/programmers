@@ -154,4 +154,5 @@
 [거스름돈](https://www.acmicpc.net/problem/5585)
 [동전 0](https://www.acmicpc.net/problem/11047)
 [로프](https://www.acmicpc.net/problem/2217)
+[수들의 합](https://www.acmicpc.net/problem/1789)
 
