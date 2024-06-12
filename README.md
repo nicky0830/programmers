@@ -147,4 +147,8 @@
 - step이 음수면 뒤집어서
   (step이 음수여도 start, end는 원래 배열의 index 기준으로 함.)
   (만약 뒤집은 기준으로 배열의 index를 사용하고 싶으면 한번 뒤집고 아예 다른 bracket으로 잡기)
-- 
+
+## 그리디
+[보물](https://www.acmicpc.net/problem/1026)
+[ATM](https://www.acmicpc.net/problem/11399)
+[거스름돈](https://www.acmicpc.net/problem/5585)
