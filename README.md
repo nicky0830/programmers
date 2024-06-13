@@ -74,9 +74,11 @@
 K번째 원소가 항상 자식 원소들(2k, 2k+1)보다 작거나 같은 최소 힙의 형태로 정렬된다
 내장 모듈의 별도 설치 작업 없이 바로 사용 가능
 
+```python
 - heapq.heqppush(heap, item) : item을 heap에 추가
 - heapq.heappop(heap): heap에서 가장 작은 원소를 pop & 리턴. 비어 있는 경우 indexError
 - heapq.heapify(X): 리스트 X를 즉각적으로 heap으로 변환함 (O(N))
+```
 
 # 다시 풀어야 하는 문제들
 ## 1. 문자열 다루기
