@@ -156,4 +156,4 @@
 - [로프](https://www.acmicpc.net/problem/2217)
 - [수들의 합](https://www.acmicpc.net/problem/1789)
 - [주유소](https://www.acmicpc.net/problem/13305)
-
+- [전자레인지](https://www.acmicpc.net/problem/10162)
