@@ -1,7 +1,6 @@
 from collections import deque
 
 def solution(maps):
-
     dx = [-1,0,1,0]
     dy = [0,1,0,-1]
 
@@ -34,3 +33,4 @@ def solution(maps):
     result = -1 if dis[n-1][m-1] == 0 else dis[n-1][m-1]
 
     return result
+
