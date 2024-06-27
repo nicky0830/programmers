@@ -101,9 +101,10 @@ K번째 원소가 항상 자식 원소들(2k, 2k+1)보다 작거나 같은 최�
 - [명예의 전당](https://school.programmers.co.kr/tryouts/85933/challenges?language=python3)
 - [더 맵게](https://school.programmers.co.kr/tryouts/85934/challenges)
 
-## 6. dfs
+## 6. dfs / bfs
 - [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943)
-- [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914) 
+- [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
+- [전력망 끊기](https://school.programmers.co.kr/learn/courses/30/lessons/86971#)
 
 ## 몰라
 - [둘만의 암호](https://school.programmers.co.kr/learn/courses/30/lessons/155652#)
@@ -141,7 +142,15 @@ K번째 원소가 항상 자식 원소들(2k, 2k+1)보다 작거나 같은 최�
 ## collections
 1. Counter : key별로 개수를 세는 딕셔너리를 만들어야 할 때 바로 만들 수 있다
      ex. 귤 고르기 문제
-
+2. defaultdict
+- defaultdict() : 딕셔너리를 만드는 dict 클래스의 서브클래스. 처음 키를 지정할 때 값을 주지 않으면 해당 키에 대한 값을 디폴트 값으로 지정한다
+  
+- defaultdict()의 인자로 주어진 객체의 기본값을 딕셔너리값의 초깃값으로 지정할 수 있다
+```python
+from collections import defaultdict
+int_dict = defaultdict(int)
+int_dict //defaultdict(<class 'int', {}) //디폴트값이 int인 딕셔너리
+```
 ## python
 - [1,2,3,4] == [1,2,3,4] : True
 - [1,2,3,4] == [4,3,2,1] : False
