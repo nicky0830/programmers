@@ -104,7 +104,7 @@ K번째 원소가 항상 자식 원소들(2k, 2k+1)보다 작거나 같은 최�
 ## 6. dfs / bfs
 - [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943)
 - [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
-- [전력망 끊기](https://school.programmers.co.kr/learn/courses/30/lessons/86971#)
+- [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971#)
 
 ## 몰라
 - [둘만의 암호](https://school.programmers.co.kr/learn/courses/30/lessons/155652#)
