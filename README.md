@@ -89,6 +89,7 @@ K번째 원소가 항상 자식 원소들(2k, 2k+1)보다 작거나 같은 최�
 - [연속된 수의 합](https://school.programmers.co.kr/app/courses/17584/curriculum/lessons/197245)
 - [치킨 쿠폰](https://school.programmers.co.kr/app/courses/17584/curriculum/lessons/197246#part-46572)
 - [바탕화면 정리](https://github.com/nicky0830/programmers/commit/fdf82ee0a1bca2b009a899e459434c2358ab5780)
+- [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
 
 ## 3. 딕셔너리
 - [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301?language=python3)
