@@ -135,7 +135,14 @@ K번째 원소가 항상 자식 원소들(2k, 2k+1)보다 작거나 같은 최�
    
 ## itertools 
 1. combination
-   
+2. combinations_with_replacement
+3. permutation
+4. product
+
+[itertools의 순열, 조합, 중복조합, 여러 iterable 중복조합](https://seu11ee.tistory.com/5)
+
+
+
 ## string
 1. ascii_lowercase
 
