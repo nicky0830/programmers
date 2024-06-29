@@ -131,6 +131,15 @@ K번째 원소가 항상 자식 원소들(2k, 2k+1)보다 작거나 같은 최�
 - [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065)
 
 # 라이브러리
+## 시간초과 
+입출력 속도 비교 : sys.stdin.readline > raw_input() > input()
+
+```
+import sys
+n = int(sys.stdin.readline())
+```
+//이렇게 쓰기
+
 ## fraction
 1. gcd
    
