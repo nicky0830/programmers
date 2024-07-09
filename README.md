@@ -151,6 +151,15 @@ n = int(sys.stdin.readline())
 
 [itertools의 순열, 조합, 중복조합, 여러 iterable 중복조합](https://seu11ee.tistory.com/5)
 
+## reduce 
+찾아보기
+
+## 언래핑 : *list로 하면 됨
+```python
+math.gcd(*리스트) // 언래핑을 해서 가능
+math.gcd(a, b, c) // 가능 
+math.gcd(리스트) // ❌ 불가능!
+```
 
 
 ## string
