@@ -212,6 +212,7 @@ int_dict //defaultdict(<class 'int', {}) //디폴트값이 int인 딕셔너리
 - [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) 📌
 
 ### 다시 풀 문제
+- DP : 카드 구매하기 1,2
 - [1로 만들기](https://www.acmicpc.net/problem/1463) 📌 DP
 - [스택 수열](https://www.acmicpc.net/problem/1874) 📌 시간초과
 - [에디터](https://www.acmicpc.net/problem/1406) 📌 시간초과
