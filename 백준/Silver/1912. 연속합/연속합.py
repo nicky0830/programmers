@@ -1,18 +1,10 @@
 n = int(input())
-arr = list(map(int, input().split()))
-dp = [0 for i in range(n)]
-dp[0] = arr[0]
+array = list(map(int, input().split()))
 
-max_val, min_val = arr[0], arr[0]
+d = [0] * n
+d[0] = array[0]
 for i in range(1, n):
-    dp[i] = dp[i-1] + arr[i]
-    if dp[i-1] < min_val:
-        min_val = dp[i-1]
-    if max_val < dp[i]:
-        max_val = dp[i]
-    if max_val < dp[i] - min_val:
-        max_val = dp[i] - min_val
-print(max_val)
-
-
-
+    d[i] = max(array[i], d[i-1]+array[i])
+    # array[i]는 꼭 포함이 되어야 하니까
+    # 시작인지 더해지는지 둘 중에 하나
+print(max(d))
