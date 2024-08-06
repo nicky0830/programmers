@@ -1,4 +1,4 @@
- # programmers
+# programmers
 
 # 알고리즘 
 ## 1. dfs
@@ -235,6 +235,7 @@ int_dict //defaultdict(<class 'int', {}) //디폴트값이 int인 딕셔너리
 - [RGB 거리] : dp의 특성 생각하기 - 새로운 값을 더할 때마다 직전까지의 min 또는 max 값을 구하기 (반복)
 - 연속합2, 타일 채우기, rgb거리2
 - 리모콘
+- 숨바꼭질 (0, 3, 4)
   
 ```
 십진수 = int(이진수,2)
