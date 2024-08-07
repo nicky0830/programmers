@@ -1,8 +1,7 @@
 def solution(s):
-    answer = []
-    times, count = 0,0
-    while s != '1':
-        times +=1
-        count += s.count('0')
-        s = bin(len(s) - s.count('0'))[2:]
-    return [times, count]
+    answer = [0,0]
+    while int(s,2) > 1:
+        answer[0] += 1
+        answer[1] += s.count("0")
+        s = bin(s.count("1"))[2:]
+    return answer
