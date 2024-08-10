@@ -1,9 +1,15 @@
 def solution(babbling):
     answer = 0
-    for i in babbling:
-        for j in ['aya','ye','woo','ma']:
-            if j*2 not in i:
-                i=i.replace(j,' ')
-        if len(i.strip())==0:
-            answer +=1
+    sound = ['aya', 'ye', 'woo', 'ma']
+    wrong_bable = ['ayaaya', 'yeye', 'woowoo', 'mama']
+    
+    for b in babbling:
+        for w in wrong_bable:
+            if w in b:
+                b = 'X'
+        for s in sound:
+            b = b.replace(s, ' ')
+        b = b.replace(' ', '')
+        if len(b) == 0:
+            answer+=1
     return answer
