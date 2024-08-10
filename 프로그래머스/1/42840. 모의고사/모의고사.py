@@ -1,21 +1,21 @@
 def solution(answers):
-    answer = []
-    one, two, three = 0, 0, 0
-    oneArr = [1,2,3,4,5]
-    twoArr = [2,1,2,3,2,4,2,5]
-    threeArr = [3,3,1,1,2,2,4,4,5,5]
-    for i,a in enumerate(answers):
-        if oneArr[i%5] == a:
-            one += 1
-        if twoArr[i%8] == a:
-            two += 1
-        if  threeArr[i%10] == a:
-            three += 1
-    max_count = max(one, two, three)
-    
-    indices=[]
-    
-    for i, count in enumerate([one, two, three]):
-        if count == max_count:
-            indices.append(i+1) 
-    return indices
+    answer = [0,0,0]
+    first = [1,2,3,4,5]
+    second = [2,1,2,3,2,4,2,5]
+    third = [3,3,1,1,2,2,4,4,5,5]
+    for i in range(len(answers)):
+        if first[i % len(first)] == answers[i]:
+            answer[0] += 1
+        if second[i % len(second)] == answers[i]:
+            answer[1] += 1
+        if third[i % len(third)] == answers[i]:
+            answer[2] += 1
+    max_num = 0
+    max_arr = []
+    for i,a in enumerate(answer):
+        if a > max_num:
+            max_arr = [i+1]
+            max_num = a
+        elif a == max_num:
+            max_arr.append(i+1)
+    return max_arr
