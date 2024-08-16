@@ -1,24 +1,18 @@
-import math 
+import math
 def solution(progresses, speeds):
     answer = []
-    leftdays = []
-    for i,e in enumerate(progresses):
-        leftday = math.ceil((100 - e)/speeds[i])
-        leftdays.append(leftday)
-    maxDay = leftdays[0]
-    count = 0
-    for i,day in enumerate(leftdays):
-        if day > maxDay:
-            answer.append(count)
-            maxDay = day
-            count = 1
+    left_days = []
+    for i in range(len(progresses)):
+        left_days.append(math.ceil((100 - progresses[i]) / speeds[i]))
+    max_day = left_days[0]
+    q = [max_day]
+    for l in left_days[1:]:
+        if l > max_day:
+            max_day = l
+            if q:
+                answer.append(len(q))
+            q = [max_day]
         else:
-            count += 1
-        if i == len(leftdays)-1:
-            answer.append(count)
+            q.append(l)
+    answer.append(len(q))
     return answer
-            
-            
-            
-    
-        
