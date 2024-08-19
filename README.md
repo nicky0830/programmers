@@ -121,6 +121,8 @@ K번째 원소가 항상 자식 원소들(2k, 2k+1)보다 작거나 같은 최�
 
 ## 9. 투포인터
 - [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)
+- [햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
+  : 시간은 pop, del이 새로 배열 정의하는 거보다 빠름 ex. del list[-4:] < list = list[:-4] (시간)
 
 ## 10. 레벨2
 - [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)
