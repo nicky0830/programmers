@@ -129,13 +129,17 @@ K번째 원소가 항상 자식 원소들(2k, 2k+1)보다 작거나 같은 최�
 - [예상 대진표](https://school.programmers.co.kr/learn/courses/30/lessons/12985)
 - [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
 - [연속 수열](https://school.programmers.co.kr/learn/courses/30/lessons/131701)
+- [롤케이크 자르기]
 
 ## 11. 튜플
 - [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065)
 
+
 # 라이브러리
 ## 시간초과 
 입출력 속도 비교 : sys.stdin.readline > raw_input() > input()
+리스트 slice: O(N)
+
 
 ```
 import sys
