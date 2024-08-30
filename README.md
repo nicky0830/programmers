@@ -130,6 +130,7 @@ K번째 원소가 항상 자식 원소들(2k, 2k+1)보다 작거나 같은 최�
 - [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
 - [연속 수열](https://school.programmers.co.kr/learn/courses/30/lessons/131701)
 - [롤케이크 자르기]
+- [뒤에 있는 큰 수 찾기] 
 
 ## 11. 튜플
 - [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065)
