@@ -1,17 +1,11 @@
+from itertools import combinations
 def solution(numbers, target):
-    global answer
     answer = 0
-    def dfs(idx, total):
-        global answer
-        if idx == len(numbers)-1:
-            if total == target:
+    minus = (sum(numbers) - target)/2
+    f = list(filter(lambda x: x<= minus, numbers))
+    for i in range(len(f)):
+        c = list(combinations(f, i+1))
+        for j in c:
+            if sum(j) == minus:
                 answer += 1
-            return
-        dfs(idx+1, total+numbers[idx+1])
-        dfs(idx+1, total-numbers[idx+1])
-        return 
-    dfs(0,numbers[0])
-    dfs(0,-1*numbers[0])
     return answer
-
-
