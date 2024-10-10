@@ -1,0 +1,5 @@
+SELECT A.ID, count(B.id) as child_count
+FROM ECOLI_DATA A
+LEFT JOIN ECOLI_DATA B
+ON A.ID = B.PARENT_ID
+GROUP BY A.id
