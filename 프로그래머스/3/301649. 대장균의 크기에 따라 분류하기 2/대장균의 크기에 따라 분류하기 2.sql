@@ -1,12 +1,11 @@
-select 
+SELECT
     ID,
     CASE
-        when ntile(4) over(order by SIZE_OF_COLONY DESC) = 1 then 'CRITICAL'
-        when ntile(4) over(order by SIZE_OF_COLONY DESC) = 2 then 'HIGH'
-        when ntile(4) over(order by SIZE_OF_COLONY DESC) = 3 then 'MEDIUM'
-        when ntile(4) over(order by SIZE_OF_COLONY DESC) = 4 then 'LOW'
-    END as COLONY_NAME
-from 
-    ECOLI_DATA
-order by
-    ID
+        WHEN NTILE(4) OVER(ORDER BY SIZE_OF_COLONY DESC) = 1 THEN 'CRITICAL'
+        WHEN NTILE(4) OVER(ORDER BY SIZE_OF_COLONY DESC) = 2 THEN 'HIGH'
+        WHEN NTILE(4) OVER(ORDER BY SIZE_OF_COLONY DESC) = 3 THEN 'MEDIUM'
+        WHEN NTILE(4) OVER(ORDER BY SIZE_OF_COLONY DESC) = 4 THEN 'LOW'
+    END COLONY_NAME
+    FROM ECOLI_DATA
+    ORDER BY ID
+    
