@@ -1,9 +1,4 @@
 function solution(emergency) {
-    var answer = [];
-    const original = [...emergency]
-    emergency.sort((a,b) => b-a)
-    for(const a of original) {
-        answer.push(emergency.indexOf(a)+1)
-    }
-    return answer;
+    var answer = emergency.slice().sort((a,b) => b-a)
+    return emergency.map(e => answer.indexOf(e) + 1);
 }
